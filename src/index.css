@@ -110,12 +110,18 @@ button:hover {
   align-items: center;
 }
 
+@media (max-width: 600px) {
+  .inputs-wrapper {
+    flex-direction: column;
+  }
+}
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 0.3rem 2rem;
 }
 
 .inputs-wrapper input {
